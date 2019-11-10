@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<!-- Compatiblity meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<!-- Fisrt mobile meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 element and media quires -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!-- [ if lt IE 9] >
+			<script src="https://oss.maxcdn/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn/respond/1.4.2/respond.min.js"></script>
+		<! [endif] -->
+		
+		<title>Bookstore</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/Bookstore - css.css" />
+		<link rel="stylesheet" href="css/hover.css" />
+		
+		<!-- for font-awesome -->
+		<link rel="stylesheet" href="css/fontawesome.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+	</head>
+	<body>
+		
+		<!-- Start Loading Website -->
+		<section class="loading">
+			<div class="spinner">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+		</section>
+		<!-- End Loading Website -->
+		
+		<!-- Start Making a Button to scroll to top -->
+		<div id="scroll_top">
+			<i class="fas fa-chevron-up fa-3x"></i>
+			<!--<i class="fas fa-chevron-down fa-3x"></i>-->
+		</div>
+		<!-- End Making a Button to scroll to top -->
+		
+		<!-- Start Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">Bookstore</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#books-nav" aria-controls="books-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+			<div class="collapse navbar-collapse" id="books-nav">
+				<ul class="d-flex navbar-nav align-items-end ml-lg-auto">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="pricing.html">Book-Price</a></li>
+					<li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- End Navbar -->
+		
+		<!-- Start Header -->
+		<div class="header">
+			<div class="overlay">
+				<div class="container">
+					<div class="row centering-vh">
+						<div class="col-md-6">
+							<h1 class="upperCase">Book<span>Store</span></h1>
+							<p class="upperCase class_P">Awesome Bookstore to Reread again</p>
+							<hr>
+							<p class="another_P">A bookstore is a store that sells books, and where people can buy them. A used bookstore or second-hand bookshop sells and often buys used books.</p>
+							<button class="btn btn-outline-light btn-lg hvr-pop">Get Started</button>
+						</div>
+						
+						<div class="col-md-6">
+							<form class="center-block text-center">
+								<h2>Try your <span>Free</span> Trail now</h2>
+								<input class="form-control" type="text" name="username" placeholder="Username" />
+								<input class="form-control" type="email" name="email" placeholder="Email" />
+								<input class="form-control" type="password" name="password" placeholder="Password" />
+								<!--<button class="btn btn-outline-secondary btn-lg btn-block hvr-pop">Get Started</button>-->
+								<input class="btn btn-outline-secondary btn-lg btn-block hvr-pop" type="submit" value="Try Now" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Header -->
+		
+		<!-- Start Social Media -->
+		<div class="social_media">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Social Media</h3>
+						<p class="social_P">Social media are interactive technologies that facilitate sharing of information and ideas of expression by networks and websites.</p>
+					</div>
+					
+					<div class="col-md-8">
+						<i class="fab fa-facebook fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-twitter fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-google-plus fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-youtube fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-instagram fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-pinterest fa-3x fa-fw hvr-pop"></i>
+						<i class="fab fa-whatsapp fa-3x fa-fw hvr-pop"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Social Media -->
+		
+		<!-- Start Tabs -->
+		<div class="tabs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<ul class="list-unstyled tab-switch text-center">
+							<li class="selected" data-class="tab-content-1">TAB # 1</li>
+							<li data-class="tab-content-2">TAB # 2</li>
+							<li data-class="tab-content-3">TAB # 3</li>
+						</ul>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="tabs-content">
+							<div class="tab-content-1">
+								<h3>Books Names</h3>
+								<p class="tabs_P">A book is a stack of usually rectangular pages oriented with one edge tied, sewn, or otherwise fixed together and then bound to the flexible spine of a protective cover of heavier, relatively inflexible material. The technical term for this physical arrangement is codex (in the plural, codices). In the history of hand-held physical supports for extended written compositions or records, the codex replaces its immediate predecessor, the scroll. A single sheet in a codex is a leaf, and each side of a leaf is a page.</p>
+								<button class="btn btn-light btn-lg hvr-pop">Read More</button>
+							</div>
+							
+							<div class="tab-content-2">
+								<h3>Books Reviews</h3>
+								<p class="tabs_P">A book review is a form of literary criticism in which a book is merely described based on content and style. Books can be reviewed for magazines and newspapers, as book web sites on the Internet. A book review's length may vary from a single paragraph to a substantial essay. Such a review may evaluate the book on the basis of personal taste. Reviewers may use the occasion of a book review for an extended essay that can be closely or loosely related to the subject of the book.</p>
+								<button class="btn btn-light btn-lg hvr-pop">Read More</button>
+							</div>
+							
+							<div class="tab-content-3">
+								<h3>Books Rates</h3>
+								<p class="tabs_P">In economics, a price book is a book in which the normal prices of an item are listed for all suppliers. This allows one to determine the lowest price possible. If a group of suppliers adhere to a particular price book, in other words, they set the prices of the price book artificially higher than the market clearing price, then they are "fixing the price" of that item. This is illegal in most countries and is often found in oligopolies.</p>
+								<button class="btn btn-light btn-lg hvr-pop">Read More</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<img class="img-responsive center-block" src="images/book.png" alt="books" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Tabs -->
+		
+		<!-- Start Sublist -->
+		<section class="sublist">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive center-block" src="images/bookshelves.jpeg" alt="" />
+					</div>
+					
+					<div class="col-md-6">
+						<div class="list-info">
+							<h3>Our Bookshelves</h3>
+							<hr>
+							<p class="info_P">A bookshelf, or bookcase, is a piece of furniture with horizontal shelves used to store books or other printed materials. Bookcases are used in private homes, public and university libraries, offices and bookstores.</p>
+							
+							<div class="list-icon">
+								<div class="row">
+									<div class="col-md-1"><i class="fas fa-history fa-lg"></i></div>
+									<div class="col-md-11">
+										<h5>History</h5>
+										<p class="icon_P">When books were written by hand and not created in great amount, they were kept in small boxes which owners carried with them.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="list-icon">
+								<div class="row">
+									<div class="col-md-1"><i class="fas fa-book-open fa-lg"></i></div>
+									<div class="col-md-11">
+										<h5>Library shelving</h5>
+										<p class="icon_P">In the great public libraries of the twentieth century, multilevel stacks often served as both structure and shelving.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Sublist -->
+		
+		<!-- Start Awesome Books -->
+		<div class="awesome text-center">
+			<div class="container">
+				<h2>Our Awesome Books</h2>
+				<hr>
+				<p class="awesome_P">Awesome Books are the most beautiful books which all people read it.</p>
+				
+				<div class="row">
+					<div class="col-md-4 awe-info">
+						<i class="fas fa-history fa-3x"></i>
+						<h3>Historical Books</h3>
+						<p class="awe-info-p">Historical Books are books that talking about our amazing history.</p>
+					</div>
+					
+					<div class="col-md-4 awe-info">
+						<i class="fas fa-microscope fa-3x"></i>
+						<h3>Scientific research Books</h3>
+						<p class="awe-info-p">Scientific research Books are books that talking about all researchs that useful for us.</p>
+					</div>
+					
+					<div class="col-md-4 awe-info">
+						<i class="fas fa-user fa-3x"></i>
+						<h3>Biography Books</h3>
+						<p class="awe-info-p">Biography Books are books that talking about people that affected in our history.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Awesome Books -->
+		
+		<!-- Start Book Pricing -->
+		<div class="book-price text-center">
+			<div class="container">
+				<h2>Book Pricing</h2>
+				<hr>
+				<p class="price_P">If you want to borrow any book, please choose from this lists</p>
+				
+				<div class="row">
+					<div class="col-md-4">
+						<div class="price_box">
+							<div class="option-info">
+								<i class="fas fa-user fa-3x"></i>
+								<h4>Standard</h4>
+							</div>
+							<div class="option-price">
+								<span class="price"><span class="usa">$</span>10</span>
+								<span class="period">Fit for life</span>
+							</div>
+							<ul class="list-unstyled configuration">
+								<li>6 book every month</li>
+								<li>9 books from each category</li>
+								<li>3 book from Biography Books</li>
+								<li>No Scientific research Books</li>
+							</ul>
+							<a href="#" class="btn btn-light btn-lg hvr-pop upperCase">Hire Now</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="price_box">
+							<div class="option-info">
+								<i class="fas fa-user-tie fa-3x"></i>
+								<h4>Profession</h4>
+							</div>
+							<div class="option-price">
+								<span class="price"><span class="usa">$</span>100</span>
+								<span class="period">3 Years Payment</span>
+							</div>
+							<ul class="list-unstyled configuration">
+								<li>50 book every month</li>
+								<li>All Categories are available</li>
+								<li> All Books are available</li>
+								<li>All Researchs are available</li>
+							</ul>
+							<a href="#" class="btn btn-light btn-lg hvr-pop upperCase">Hire Now</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="price_box">
+							<div class="option-info">
+								<i class="fas fa-infinity fa-3x"></i>
+								<h4>Enterprise</h4>
+							</div>
+							<div class="option-price">
+								<span class="price"><span class="usa">$</span>50</span>
+								<span class="period">1 Year Payment</span>
+							</div>
+							<ul class="list-unstyled configuration">
+								<li>8 book every month</li>
+								<li>20 books from each category</li>
+								<li>30 book from Biography Books</li>
+								<li>50 books from Scientific research Books</li>
+							</ul>
+							<a href="#" class="btn btn-light btn-lg hvr-pop upperCase">Hire Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Book Pricing -->
+		
+		<!-- Start Feedback -->
+		<div class="feedback">
+			<div class="container">
+				<h2 class="text-center">Our Clients Feedback</h2>
+				<hr>
+				<div class="row">
+					<div class="col-md-4">
+						<p class="feed_P">This site is incredible! I get what I want in a few minutes. Alse, the team will helps me to get what I want excatly.</p>
+						<div class="media">
+							<img class="media-object img-circle" src="images/Clients/Client-01.jpg" alt="" />
+							<div class="media-body">
+								<h5 class="media-heading">Aber Abdel-Salam</h5>
+								<p>Historical Research</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<p class="feed_P">This site is incredible! I get what I want in a few minutes. Alse, the team will helps me to get what I want excatly.</p>
+						<div class="media">
+							<img class="media-object" src="images/Clients/Client-02.jpg" alt="" />
+							<div class="media-body">
+								<h5 class="media-heading">Amal Azab</h5>
+								<p class="media-job">Scientific Research</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<p class="feed_P">This site is incredible! I get what I want in a few minutes. Alse, the team will helps me to get what I want excatly.</p>
+						<div class="media">
+							<img class="media-object" src="images/Clients/Client-03.jpg" alt="" />
+							<div class="media-body">
+								<h5 class="media-heading">Haidy Nabil</h5>
+								<p class="media-job">Biography Research</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Feedback -->
+		
+		<!-- Start Contact Us-->
+		<section class="contact">
+			<div class="container">
+				<h2 class="text-center">Contact Us</h2>
+				<hr>
+				<p class="cont_P text-center">If you want to tell us any thing or you have any new ideas<br>Please, Send it now from this form immediatly!</p>
+				<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control form-control-lg" placeholder="Write Your Username Here!">
+							</div>
+							
+							<div class="form-group">
+								<input type="text" class="form-control form-control-lg" placeholder="Write Your Email Here!">
+							</div>
+							
+							<div class="form-group">
+								<input type="text" class="form-control form-control-lg" placeholder="Write Your Phone Here!">
+							</div>
+						</div>
+						
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control form-control-lg" rows="4" placeholder="Write your Message Here!"></textarea>
+							</div>
+						</div>
+						<button type="button" class="btn btn-light btn-lg btn-block hvr-pop upperCase">Contact Us</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- End Contact Us -->
+		
+		<!-- Start Footer -->
+		<div class="footer text-center">
+			<div class="container">
+				<div class="footer_social">
+					<i class="fab fa-facebook fa-2x hvr-pop"></i>
+					<i class="fab fa-twitter fa-2x hvr-pop"></i>
+					<i class="fab fa-google-plus fa-2x hvr-pop"></i>
+					<i class="fab fa-youtube fa-2x hvr-pop"></i>
+					<i class="fab fa-instagram fa-2x hvr-pop"></i>
+					<i class="fab fa-pinterest fa-2x hvr-pop"></i>
+					<i class="fab fa-whatsapp fa-2x hvr-pop"></i>
+				</div>
+				
+				<div class="copyright">
+					Copyright &copy; 2019 All Right Reserved.
+				</div>
+			</div>
+		</div>
+		<!-- End Footer -->
+		
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/Bookstore - js.js"></script>
+	</body>
+</html>

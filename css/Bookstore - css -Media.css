@@ -1,0 +1,27 @@
+/* Start Media Query */
+
+/* from starting width 0 to 767px = from 0 to mobile, tablet */
+@media (max-width: 767px){
+	/*h1{font-size: 100px;}*/	/*.carousel{display: none;}*/
+	/*.navbar-inverse .navbar-nav > li > a{padding-top: 10px;padding-bottom: 10px;}
+	/*.subscribe .form-control{margin: 20px auto;width: 400px;}*/
+}
+
+/* from starting width 768px and till width 991px = from small to medium */
+@media (min-width: 768px) and (max-width: 991px){ 
+	/*h1{font-size: 150px; color: #00F;}*/
+}
+
+/* drom starting width 992px and till width 1199px = from medium to large */
+@media (min-width: 992px) and (max-width: 1199px){
+	/*h1{font-size: 150px; font-size: 40px; color: #080;	}*/
+}
+
+/* drom starting width 1200px = from large to end */
+@media (min-width: 1200px){
+	/*h1{font-size: 100px;color: yellow;	}*/
+}
+
+/* End Media Query */
+
+/* -------------------------------------------------------------------------------------------------------- */
